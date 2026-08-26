@@ -10,8 +10,7 @@ and add homebrew path to each.
 
 Copy-paste in your terminal:
 ```shell
-/bin/sh -c "$(curl -L https://raw.githubusercontent.com/tibocu
-b/no-sudo-homebrew/refs/heads/main/install.sh)"
+/bin/sh -c "$(curl -L https://raw.githubusercontent.com/tibocub/no-sudo-homebrew/refs/heads/main/install.sh)"
 ```
 
 Installs in ~/.local/homebrew by default.
@@ -22,8 +21,7 @@ Can be change in install.sh by changing
 ## Uninstall
 If you installed in the default path
 ```shell
-/bin/sh -c "$(curl -L https://raw.githubusercontent.com/tibocu
-b/no-sudo-homebrew/refs/heads/main/uninstall.sh)"
+/bin/sh -c "$(curl -L https://raw.githubusercontent.com/tibocub/no-sudo-homebrew/refs/heads/main/uninstall.sh)"
 ```
 
 otherwise
