@@ -23,7 +23,7 @@ Can be change in install.sh by changing
 If you installed in the default path
 ```shell
 /bin/sh -c "$(curl -L https://raw.githubusercontent.com/tibocu
-b/no-sudo-homebrew/refs/heads/main/install.sh)"
+b/no-sudo-homebrew/refs/heads/main/uninstall.sh)"
 ```
 
 otherwise
