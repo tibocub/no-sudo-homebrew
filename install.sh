@@ -8,7 +8,7 @@ if [ ! -d "$install_dir" ]; then
     echo "Installing Homebrew to $install_dir..."
     mkdir -p "$install_dir"
 
-    curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip-components 1 -C "$install_dir"
+    curl -L https://github.com/Homebrew/brew/tarball/main | tar xz --strip-components 1 -C "$install_dir"
 
 		brew_bin="$install_dir/bin/brew"
 		eval_cmd="eval \"\$($brew_bin shellenv)\""
